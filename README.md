@@ -8,4 +8,6 @@ I paid very close attention to detail.  You may notice that all the "1" assets a
 
 When I couldn't find some screen grabs the actual DVD menu used for the number fills, I created my own from frame captures.
 
+The screen shot below doesn't do justice to the animation, so I suggest you play the DVDMenu.wmv in the files above and then build this project to see the comparison.  
+
 ![](OceansElevenDVDDemoScreenShot.png?raw=true)
