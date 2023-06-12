@@ -8,7 +8,7 @@ I paid very close attention to the details.  For example, the "1" assets are all
 
 When I couldn't find the same screen grabs the actual DVD menu used for the number fills (likely because they were from deleted scenes), I created my own from frame captures.
 
-Unfortunately, I had to remove the video that plays within the "11" when the menu appears because UWP does not have a VideoBrush control like Silverlight did to play a video in the path fill.  I'll keep my eyes out for a solution so I can complete the port.
+Unfortunately, I had to remove the video that plays within the "11" when the menu appears because UWP does not have the VideoBrush like Silverlight did to play a video in the path fill.  I'll keep my eyes out for a solution so I can complete the port.
 
 The screenshot below doesn't do justice to the animation, so I suggest you play the DVDMenu.wmv in the files above and then build this project to see the comparison.  
 
