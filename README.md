@@ -6,7 +6,7 @@ Back then I used Microsoft Expression Studio to complete the project.  I used Ex
 
 I paid close attention to the details when duplicating the look of the Ocean's Eleven DVD menu.  For example, you may notice the "1" paths are all slightly different from each other.    
 
-Unfortunately, I had to remove the video that plays within the stationary "11" path because UWP does not have a VideoBrush like Silverlight did to use a video as a path fill.  I will keep my eyes out for a solution so I can complete the port.
+Unfortunately, I had to remove the video that plays within the stationary "11" path at the end because UWP does not have a VideoBrush like Silverlight did to use a video as a path fill.  I will keep my eyes out for a solution so I can complete the port.
 
 The screenshot below does not do justice to the animation, so I suggest you play the DVDMenu.wmv in the files above and then build this project to see the comparison.  
 
