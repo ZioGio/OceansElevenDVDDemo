@@ -270,48 +270,48 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:12.3090000" Value="0" />
                 <EasingDoubleKeyFrame KeyTime="00:00:14.1770000" Value="-1224.5" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthVirgil3" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthVirgil3" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:02.4990000" Value="0" />
                 <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="2" />
                 <EasingDoubleKeyFrame KeyTime="00:00:04.1670000" Value="-1.3" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthTurk9" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthTurk9" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:10.9740000" Value="1.1" />
                 <EasingDoubleKeyFrame KeyTime="00:00:12.8090000" Value="-1" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthSaul4" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthSaul4" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:03.6000000" Value="-0.8" />
                 <EasingDoubleKeyFrame KeyTime="00:00:05.3020000" Value="0.8" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthLinus8" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthLinus8" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:09.6060000" Value="-1" />
                 <EasingDoubleKeyFrame KeyTime="00:00:11.5080000" Value="1" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthFrank7" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthFrank7" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:08.3720000" Value="0" />
                 <EasingDoubleKeyFrame KeyTime="00:00:10.0400000" Value="0" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthFrank7" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthFrank7" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:08.3720000" Value="0.8" />
                 <EasingDoubleKeyFrame KeyTime="00:00:10.0400000" Value="-1.5" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthYen6" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthYen6" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:07.0700000" Value="-1" />
                 <EasingDoubleKeyFrame KeyTime="00:00:08.6720000" Value="1" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthLivingston5" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthLivingston5" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:05.5020000" Value="1" />
                 <EasingDoubleKeyFrame KeyTime="00:00:07.1370000" Value="-1" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthReuben10" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthReuben10" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:12.3090000" Value="-1" />
                 <EasingDoubleKeyFrame KeyTime="00:00:14.1770000" Value="1" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthRusty1" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthRusty1" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:00.0970000" Value="2" />
                 <EasingDoubleKeyFrame KeyTime="00:00:01.9320000" Value="-2" />
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthBasher2" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="pthBasher2" Storyboard.TargetProperty="(Shape.Fill).(Brush.RelativeTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" EnableDependentAnimation="True">
                 <EasingDoubleKeyFrame KeyTime="00:00:01.6980000" Value="-0.6" />
                 <EasingDoubleKeyFrame KeyTime="00:00:03.3000000" Value="1" />
             </DoubleAnimationUsingKeyFrames>
@@ -917,7 +917,7 @@
             <Path x:Name="pthBlankDotsHorizontal30" Width="780" Height="165" Canvas.Left="0" Canvas.Top="0" Stretch="Fill" Fill="#FF000000" Data="M 153,413L 168,413L 168,432L 153,432L 153,413 Z M 357,497L 372,497L 372,516L 357,516L 357,497 Z M 0,497L 15,497L 15,516L 0,516L 0,497 Z M 187,434L 202,434L 202,453L 187,453L 187,434 Z M 765,392L 780,392L 780,411L 765,411L 765,392 Z M 170,476L 185,476L 185,495L 170,495L 170,476 Z M 493,476L 508,476L 508,495L 493,495L 493,476 Z M 697,517L 712,517L 712,536L 697,536L 697,517 Z M 119,434L 134,434L 134,453L 119,453L 119,434 Z M 697,434L 712,434L 712,453L 697,453L 697,434 Z M 136,371L 151,371L 151,390L 136,390L 136,371 Z M 255,497L 270,497L 270,516L 255,516L 255,497 Z M 85,413L 100,413L 100,432L 85,432L 85,413 Z M 289,517L 304,517L 304,536L 289,536L 289,517 Z M 323,371L 338,371L 338,390L 323,390L 323,371 Z M 102,455L 117,455L 117,474L 102,474L 102,455 Z M 527,413L 542,413L 542,432L 527,432L 527,413 Z M 204,476L 219,476L 219,495L 204,495L 204,476 Z M 272,476L 287,476L 287,495L 272,495L 272,476 Z M 510,434L 525,434L 525,453L 510,453L 510,434 Z M 153,497L 168,497L 168,516L 153,516L 153,497 Z M 0,434L 15,434L 15,453L 0,453L 0,434 Z M 170,392L 185,392L 185,411L 170,411L 170,392 Z " StrokeThickness="0" />
         </Canvas>
 
-        <!-- Horizontally scrolling number Path objects and ImageBrushes -->
+        <!-- Horizontally scrolling number Paths and ImageBrushes -->
         <Canvas x:Name="Numbers">
 
             <!-- Rusty 1 -->
@@ -1190,7 +1190,5 @@
 
         <!-- Start button -->
         <Button x:Name="btnStart" x:Uid="Start" Style="{StaticResource StartButton}" Canvas.Top="250" Canvas.Left="350" Click="BtnStart_Click" />
-
-
     </Canvas>
 </UserControl>
