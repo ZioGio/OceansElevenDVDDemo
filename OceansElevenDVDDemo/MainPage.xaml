@@ -9,6 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <!-- LayoutRoot -->
     <Grid>
         <!-- The purpose of this grid is to hide the animated elements outside the DVDMenuControl from displaying -->
         <Grid Canvas.ZIndex="1000">
