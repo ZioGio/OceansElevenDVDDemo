@@ -1,6 +1,5 @@
 ﻿using System;
 using Windows.Media.Core;
-using Windows.Media.Playback;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
@@ -10,28 +9,13 @@ namespace OceansElevenDVDDemo.Controls
 {
     public sealed partial class DVDMenuControl : UserControl
     {
-        private MediaPlayer mediaPlayer;
+        private MediaPlayerElement mediaPlayerElement;
+        private const string MusicPart1File = "ms-appx:///Assets/Media/IntroMusicPart1.wma";
+        private const string MusicPart2File = "ms-appx:///Assets/Media/IntroMusicPart2.wma";
 
         public DVDMenuControl()
         {
             InitializeComponent();
-        }
-
-        private void SbIntroPart1_Completed(object sender, object e)
-        {
-            // Stop media and load/unload elements    
-            mediaPlayer.Dispose();
-            sbIntroPart1.Stop();
-            UnloadObject(VerticalDots);
-            UnloadObject(Numbers1To10);
-            FindName("HorizontalDots");
-            FindName("MenuPart2");
-
-            // Start Storyboard and music
-            mediaPlayer = new MediaPlayer();
-            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/Media/IntroMusicPart2.wma"));
-            mediaPlayer.Play();
-            sbIntroPart2.Begin();
         }
 
         private void BtnStart_Click(object sender, RoutedEventArgs e)
@@ -43,15 +27,31 @@ namespace OceansElevenDVDDemo.Controls
             FindName("Number11");
 
             // Start media
-            mediaPlayer = new MediaPlayer();
-            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/Media/IntroMusicPart1.wma"));
-            mediaPlayer.Play();
+            Play(MusicPart1File);
             sbIntroPart1.Begin();
         }
 
-        private void SbIntroPart2_Completed(object sender, object e)
+        private void SbIntroPart1_Completed(object sender, object e)
         {
-            mediaPlayer.Dispose();
+            // Stop media and load/unload elements    
+            sbIntroPart1.Stop();
+            UnloadObject(VerticalDots);
+            UnloadObject(Numbers1To10);
+            FindName("HorizontalDots");
+            FindName("MenuPart2");
+
+            // Start media
+            Play(MusicPart2File);
+            sbIntroPart2.Begin();
+        }
+
+        private void Play(string fileName)
+        {
+            mediaPlayerElement = new MediaPlayerElement();
+            mediaPlayerElement.Source = MediaSource.CreateFromUri(new Uri(fileName));
+            // The two lines below are what act as the mediaElement.Play() equivelant 
+            mediaPlayerElement.AutoPlay = true;
+            LayoutRoot.Children.Add(mediaPlayerElement);
         }
     }
 }
